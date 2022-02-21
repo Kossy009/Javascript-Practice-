@@ -1,4 +1,4 @@
-/*Create and array of your choice of length and elements then write a 
+/*Create an array of your choice of length and elements then write a 
 JavaScript program to compute the sum and product of an array of integers.*/
 
 let total = 0 
@@ -10,7 +10,6 @@ const calcSum = arr => {
     console.log(total);
     return total; 
 }
-
 const calcProduct = arr => {
     for(let x of arr){
         product *= x;
@@ -18,7 +17,6 @@ const calcProduct = arr => {
     console.log(product);
     return product;
 }
-
 const numbers = [2, 5, 8, 6, 3, 7, 2, 4, 1, 3];
 calcSum(numbers);
 calcProduct(numbers);
